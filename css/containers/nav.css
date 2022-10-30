@@ -1,0 +1,52 @@
+.navbar {
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    transition: ease-in 2s;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .gauche {
+    margin-left: 1% !important;
+    justify-content: space-between;
+}
+
+.navbar .droite {
+    padding-right: 1% !important;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+@media (min-width: 1000px){
+    .navbar .droite {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px){
+    .navbar .droite {
+        width: 80%;
+        margin-right: 2% !important;
+    }
+}
+
+@media (max-width: 500px){
+    .navbar .droite {
+        width: 85%;
+    }
+}

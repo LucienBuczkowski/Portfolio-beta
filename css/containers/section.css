@@ -1,0 +1,15 @@
+@media (max-width: 1000px) {
+    .c_who {
+        flex-wrap: wrap;
+    }
+}
+
+.c_who {
+    display: flex;
+}
+
+.c_future {
+    display: block;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}

@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+
+    .c_who .texte {
+        padding-top: 5% !important;
+        padding-left: 10% !important;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .c_who .texte {
+        padding-top: 5% !important;
+        padding-left: 5% !important;
+    }
+}
+
+.c_who {
+    color: white;
+}
+
+.c_who .texte {
+    /*background-color: red;*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-right: 10% !important;
+}
+
+.c_who .texte > div{
+    width: 70%;
+    /*background-color: blue;*/
+}
+
+.c_future h2{
+    color: white;
+}
+
+.c_future p{
+    
+}

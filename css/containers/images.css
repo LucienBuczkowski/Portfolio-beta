@@ -1,0 +1,21 @@
+.c_who .matete{
+    /*background-color: green;     /*made for debug*/
+}
+
+.c_who .matete img {
+    height: 55vh;
+    border-radius: 0px 900px 900px 900px;
+}
+
+.c_who .matete img:hover {
+    height: 60vh;
+    transition: 1s;
+}
+
+.c_who .matete img:empty {
+    transition: 1s;
+}
+
+.d-block .w-100 {
+   
+}

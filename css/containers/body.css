@@ -1,0 +1,10 @@
+body {
+    background-color: #222222;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: auto !important;
+}
+
+body section {
+    font-size: xx-large;
+    /*background-color: red; /*destiné au debug*/
+}
