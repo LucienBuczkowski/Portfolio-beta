@@ -1,0 +1,28 @@
+.back-to-the-top {
+    background-color: white;
+    position: sticky;
+    width: 50px;
+    height: 2vh;
+    display: flex;
+    bottom: 0px;
+    border-radius: 50px 50px 0 0;
+    justify-content: center;
+    padding: 1% !important;
+    font-size: x-small;
+}
+
+.back-to-the-top a {
+    display: none;
+    margin: 2% !important;
+    margin-top: 40% !important;
+}
+
+.back-to-the-top:hover {
+    height: 10vh;
+    transition: 1s;
+}
+
+.back-to-the-top:hover a {
+    display: flex;
+    transition: 1s;
+}

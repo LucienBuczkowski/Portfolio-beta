@@ -17,6 +17,11 @@
     justify-content: center;
 }
 
+.c_future_grid div:hover {
+    background-color: rgba(255, 170, 0, 0.75);
+    transition: 1s;
+}
+
 @media (min-width: 680px) {
 
     .c_future_grid {

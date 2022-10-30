@@ -32,10 +32,7 @@
     /*background-color: blue;*/
 }
 
-.c_future h2{
+h2{
     color: white;
-}
-
-.c_future p{
-    
+    margin-left: 2% !important;
 }
