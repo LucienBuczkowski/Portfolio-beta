@@ -8,3 +8,13 @@ body section {
     font-size: xx-large;
     /*background-color: red; /*destiné au debug*/
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}

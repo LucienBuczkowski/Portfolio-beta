@@ -13,3 +13,9 @@
     padding-left: 2% !important;
     padding-right: 2% !important;
 }
+
+.c_contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
