@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="start" class="default">
+    <header>
+        <nav class="navbar">
+            <div class="gauche">
+                <img class="avatar" src="assets/images/avatar.jpg" alt="avatar">
+                <div><a id="theme-change" href="#start">Changer de thème</a></div>
+            </div>
+            <div class="droite">
+                    <div><a href="#c_who">Qui suis-je ?</a></div>
+                    <div><a href="#c_future">Mes objectifs</a></div>
+                    <div><a href="#c_what">Mes projets</a></div>
+                    <div><a href="#c_contact">Me contacter</a></div>
+                    <div><a></a></div>
+            </div>
+        </nav>
+    </header>
+    <!-------QUI SUIS-JE-------->
+    <section id="c_who" class="c_who">
+        <div class="matete"><img src="assets/images/matete.jpg" alt="ma tête en gros"></div>
+        <div class="texte"><p>Je n'ai pas toujours visé le bon objectif, et il m'est souvent arrivé de me tromper, d'arrêter et commencer exactement ce qu'il ne fallait pas. Seulement, après des années à errer, à me perdre, j'ai enfin perçu le bon chemin. Me voilà donc maintenant à l'IIM, où mon Objectif, au-delà de l'obtention de mon diplôme, est d'apprendre et de <strong>créer</strong>. Je m'appelle Lucien Buczkowski, et ceci est mon portfolio.</p> </div>
+        <div class="bulle">
+          <img src="assets/images/Bulle.png" alt="bulle-de-texte">
+        </div>  
+    </section>
+    <br><br><br>
+    <!-------MES OBJECTIFS-------->
+    <section id="c_future" class="c_future">
+        <h2>Mes Objectifs</h2>
+        <div class="c_future_grid">
+            <div class="f_grid one"><p>Finir l'année préparatoire et entrer dans l'axe Création et Design ou Game Art</p></div>
+            <div class="f_grid two"><p>Année 3, trouver une alternance</p></div>
+            <div class="f_grid three"><p>Année 5, obtenir un master</p></div>
+            <div class="f_grid four"><p>Travailler en freelance ou dans une boîte sympathique et créer de nombreuses choses</p></div>
+        </div>
+    </section>
+    <br><br><br>
+    <!-------MES PROJETS-------->
+    <section id="c_what" class="c_what">
+        <h2>Mes Projets</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item shakaponk active">
+                <img src="assets/images/Album_shakaponk_lisible.png" class="d-block w-100 shakaponk" alt="Album Shaka-Ponk">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/iDuck.png" class="d-block w-100" alt="Site iDuck">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/miniature-portfolio.jpg" class="d-block w-100" alt="Portfolio Dev">
+              </div>
+              <!--TODO: rajouter les rendus de 3D-->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <br><br><br>
+    <!-------ME CONTACTER-------->
+    <section id="c_contact" class="c_contact">
+        <div class="card">
+            <p>Téléphone :</p>
+            <div><p>06.84.40.92.42</p></div>
+        </div>
+        <div class="card">
+            <p>Adresse e-mail :</p>
+            <div><p>lucien.buczkowski@edu.devinci.fr</p></div>
+        </div>
+        <div class="card">
+            <p>LinkedIn :</p>
+            <div><a href="https://www.linkedin.com/in/lucien-buczkowski-2373a71b8/">Mon Profil LinkedIn</a></div>
+        </div>
+    </section>
+    <br><br><br>
+    <!-------AVIS CONCERNANT LE SITE-------->
+    <section id="#c_avis" class="c_avis">
+      <h2>Trouvez-vous ce site absolument incroyable ?</h2>
+      <div class="butt-avis">
+        <button class="butt-avis butt-gauche">Oui</button>
+        <button class="butt-avis butt-droite isNon">non</button>
+        <p id="merci">Merci !</p>
+      </div>
+    </section>
+    <div class="back-to-the-top-hitbox"><div class="back-to-the-top"><a href="#start">Back to top</a></div></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
