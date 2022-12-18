@@ -1,14 +1,22 @@
-.back-to-the-top {
-    background-color: white;
+/*---------BACK-TO-THE-TOP---------*/
+.back-to-the-top-hitbox {
     position: sticky;
     width: 50px;
-    height: 2vh;
+    height: 10vh;
     display: flex;
     bottom: 0px;
+    align-items: flex-end;
+}
+
+.back-to-the-top {
+    background-color: white;
+    width: 50px;
+    height: 3vh;
     border-radius: 50px 50px 0 0;
     justify-content: center;
+    text-align: center;
     padding: 1% !important;
-    font-size: x-small;
+    font-size: small;
 }
 
 .back-to-the-top a {
@@ -17,12 +25,55 @@
     margin-top: 40% !important;
 }
 
-.back-to-the-top:hover {
+.back-to-the-top-hitbox:hover a {
+    display: flex;
+    transition: 1s;
+}
+
+.back-to-the-top-hitbox:hover .back-to-the-top{
     height: 10vh;
     transition: 1s;
 }
 
-.back-to-the-top:hover a {
+/*----------CHANGER DE THEME--------*/
+#theme-change{
+    margin-left: 15% !important;
+    width: fit-content !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#theme-change:hover {
+    font-size: large;
+}
+
+
+/*---------BOUTONS-RIGOLOS---------*/
+
+div.butt-avis {
     display: flex;
-    transition: 1s;
+    justify-content: space-around;
+    margin-top: 5% !important;
+    align-items: center;
+}
+
+button.butt-avis {
+    width: 30%;
+    background-color: rgb(18, 136, 255);
+    border-radius: 5em;
+    color: white;
+    border-color: rgb(228, 54, 91);
+    border-width: 5px;
+    height: 9vh;
+    font-size: 200%;
+}
+
+.isNon {
+    background-color: rgb(13, 49, 85) !important;
+    font-size: larger !important;
+    height: 7vh !important;
+    border-width: 3px !important;
+    border-color: rgb(43, 131, 50) !important;
+    width: 20% !important;
 }

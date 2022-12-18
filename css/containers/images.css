@@ -29,3 +29,18 @@
         src: url(../../assets/images/Album_shakaponk.png);
     }
 } */
+
+.bulle {
+    position: absolute;
+    left: 600px;
+    top: 10%;
+}
+
+.bulle img {
+    opacity: 0%;
+    height: 15vh;
+}
+
+.bulletransition {
+    transition: ease-out 2s;
+}

@@ -36,3 +36,12 @@ h2{
     color: white;
     margin-left: 2% !important;
 }
+
+#merci {
+    position: fixed;
+    color: red;
+    top: 1100px;
+    left: -100px;
+    transition: 1s;
+    font-style: italic;
+}

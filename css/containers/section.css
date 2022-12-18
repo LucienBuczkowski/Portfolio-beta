@@ -19,3 +19,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.c_avis {
+    display: block;
+}

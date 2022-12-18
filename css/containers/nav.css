@@ -24,6 +24,7 @@
 .navbar .gauche {
     margin-left: 1% !important;
     justify-content: space-between;
+    width: fit-content;
 }
 
 .navbar .droite {
